@@ -2,6 +2,9 @@
   "name": "backend",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
   "private": true,
   "devDependencies": {
     "@types/bun": "latest",
